@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-txt-clr);
     font-size: 14px;
-
+    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -44,7 +44,6 @@ body {
 
 .header-nav-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-txt-clr);
@@ -58,7 +57,6 @@ body {
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-color-alt);
@@ -68,17 +66,22 @@ body {
     color: var(--brand-color-main);
 }
 
+.active-link {
+    color: var(--brand-color-main);
+}
 
 
 
 /* HEADER */ 
 .order {
     background-color: var(--brand-plate-clr);
+    text-align: center;
+}
+.order-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -91,7 +94,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -106,7 +108,6 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--brand-txt-clr);
     width: 112px;
     height: 38px;
@@ -127,29 +128,22 @@ body {
 
 .features-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-txt-clr);
 }
 .features-descr {
     font-family: 'Roboto';
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--brand-color-alt);
 }
 
 .about-main, .team-main {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     color: var(--brand-plate-clr);
 }
 
@@ -163,11 +157,9 @@ body {
 
 .team-name {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
     color: var(--brand-txt-clr);
 }
 
@@ -175,7 +167,6 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
     color: var(--brand-color-alt);
 }
 
@@ -190,7 +181,6 @@ body {
 .artworks-descr {
     font-size: 16px;
     line-height: 2;
-    letter-spacing: 0.03em;
     color: var(--brand-color-alt);
 }
 
@@ -203,9 +193,7 @@ body {
 .street {
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .logo-studio-bt {
@@ -218,9 +206,7 @@ body {
 .contacts {
     text-decoration: none;
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
